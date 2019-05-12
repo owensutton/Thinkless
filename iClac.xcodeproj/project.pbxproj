@@ -14,6 +14,8 @@
 		A011FCEC22760E7300F03E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A011FCEA22760E7300F03E51 /* LaunchScreen.storyboard */; };
 		A011FCF722760E7300F03E51 /* iClacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011FCF622760E7300F03E51 /* iClacTests.swift */; };
 		A011FD0222760E7300F03E51 /* iClacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011FD0122760E7300F03E51 /* iClacUITests.swift */; };
+		A099870F227A613C008F1A0F /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099870E227A613C008F1A0F /* TipViewController.swift */; };
+		A09987112283B46D008F1A0F /* DiscountCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09987102283B46D008F1A0F /* DiscountCalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A011FCFD22760E7300F03E51 /* iClacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iClacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A011FD0122760E7300F03E51 /* iClacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iClacUITests.swift; sourceTree = "<group>"; };
 		A011FD0322760E7300F03E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A099870E227A613C008F1A0F /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
+		A09987102283B46D008F1A0F /* DiscountCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				A011FCE122760E7100F03E51 /* AppDelegate.swift */,
 				A011FCE322760E7100F03E51 /* ViewController.swift */,
 				A011FCE522760E7100F03E51 /* Main.storyboard */,
+				A09987102283B46D008F1A0F /* DiscountCalculatorViewController.swift */,
+				A099870E227A613C008F1A0F /* TipViewController.swift */,
 				A011FCE822760E7300F03E51 /* Assets.xcassets */,
 				A011FCEA22760E7300F03E51 /* LaunchScreen.storyboard */,
 				A011FCED22760E7300F03E51 /* Info.plist */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A011FCE422760E7100F03E51 /* ViewController.swift in Sources */,
+				A099870F227A613C008F1A0F /* TipViewController.swift in Sources */,
 				A011FCE222760E7100F03E51 /* AppDelegate.swift in Sources */,
+				A09987112283B46D008F1A0F /* DiscountCalculatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
