@@ -36,17 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A011FCDE22760E7100F03E51 /* iClac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iClac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A011FCDE22760E7100F03E51 /* Thinkless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thinkless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A011FCE122760E7100F03E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A011FCE322760E7100F03E51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A011FCE622760E7100F03E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A011FCE822760E7300F03E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A011FCEB22760E7300F03E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A011FCED22760E7300F03E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A011FCF222760E7300F03E51 /* iClacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iClacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A011FCF222760E7300F03E51 /* ThinklessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinklessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A011FCF622760E7300F03E51 /* iClacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iClacTests.swift; sourceTree = "<group>"; };
 		A011FCF822760E7300F03E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A011FCFD22760E7300F03E51 /* iClacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iClacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A011FCFD22760E7300F03E51 /* ThinklessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinklessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A011FD0122760E7300F03E51 /* iClacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iClacUITests.swift; sourceTree = "<group>"; };
 		A011FD0322760E7300F03E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A099870E227A613C008F1A0F /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		A011FCD522760E7100F03E51 = {
 			isa = PBXGroup;
 			children = (
-				A011FCE022760E7100F03E51 /* iClac */,
+				A011FCE022760E7100F03E51 /* Thinkless */,
 				A011FCF522760E7300F03E51 /* iClacTests */,
 				A011FD0022760E7300F03E51 /* iClacUITests */,
 				A011FCDF22760E7100F03E51 /* Products */,
@@ -91,14 +91,14 @@
 		A011FCDF22760E7100F03E51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A011FCDE22760E7100F03E51 /* iClac.app */,
-				A011FCF222760E7300F03E51 /* iClacTests.xctest */,
-				A011FCFD22760E7300F03E51 /* iClacUITests.xctest */,
+				A011FCDE22760E7100F03E51 /* Thinkless.app */,
+				A011FCF222760E7300F03E51 /* ThinklessTests.xctest */,
+				A011FCFD22760E7300F03E51 /* ThinklessUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A011FCE022760E7100F03E51 /* iClac */ = {
+		A011FCE022760E7100F03E51 /* Thinkless */ = {
 			isa = PBXGroup;
 			children = (
 				A011FCE122760E7100F03E51 /* AppDelegate.swift */,
@@ -110,7 +110,7 @@
 				A011FCEA22760E7300F03E51 /* LaunchScreen.storyboard */,
 				A011FCED22760E7300F03E51 /* Info.plist */,
 			);
-			path = iClac;
+			path = Thinkless;
 			sourceTree = "<group>";
 		};
 		A011FCF522760E7300F03E51 /* iClacTests */ = {
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A011FCDD22760E7100F03E51 /* iClac */ = {
+		A011FCDD22760E7100F03E51 /* Thinkless */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A011FD0622760E7300F03E51 /* Build configuration list for PBXNativeTarget "iClac" */;
+			buildConfigurationList = A011FD0622760E7300F03E51 /* Build configuration list for PBXNativeTarget "Thinkless" */;
 			buildPhases = (
 				A011FCDA22760E7100F03E51 /* Sources */,
 				A011FCDB22760E7100F03E51 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = iClac;
+			name = Thinkless;
 			productName = iClac;
-			productReference = A011FCDE22760E7100F03E51 /* iClac.app */;
+			productReference = A011FCDE22760E7100F03E51 /* Thinkless.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A011FCF122760E7300F03E51 /* iClacTests */ = {
+		A011FCF122760E7300F03E51 /* ThinklessTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A011FD0922760E7300F03E51 /* Build configuration list for PBXNativeTarget "iClacTests" */;
+			buildConfigurationList = A011FD0922760E7300F03E51 /* Build configuration list for PBXNativeTarget "ThinklessTests" */;
 			buildPhases = (
 				A011FCEE22760E7300F03E51 /* Sources */,
 				A011FCEF22760E7300F03E51 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				A011FCF422760E7300F03E51 /* PBXTargetDependency */,
 			);
-			name = iClacTests;
+			name = ThinklessTests;
 			productName = iClacTests;
-			productReference = A011FCF222760E7300F03E51 /* iClacTests.xctest */;
+			productReference = A011FCF222760E7300F03E51 /* ThinklessTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A011FCFC22760E7300F03E51 /* iClacUITests */ = {
+		A011FCFC22760E7300F03E51 /* ThinklessUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A011FD0C22760E7300F03E51 /* Build configuration list for PBXNativeTarget "iClacUITests" */;
+			buildConfigurationList = A011FD0C22760E7300F03E51 /* Build configuration list for PBXNativeTarget "ThinklessUITests" */;
 			buildPhases = (
 				A011FCF922760E7300F03E51 /* Sources */,
 				A011FCFA22760E7300F03E51 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				A011FCFF22760E7300F03E51 /* PBXTargetDependency */,
 			);
-			name = iClacUITests;
+			name = ThinklessUITests;
 			productName = iClacUITests;
-			productReference = A011FCFD22760E7300F03E51 /* iClacUITests.xctest */;
+			productReference = A011FCFD22760E7300F03E51 /* ThinklessUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A011FCD922760E7100F03E51 /* Build configuration list for PBXProject "iClac" */;
+			buildConfigurationList = A011FCD922760E7100F03E51 /* Build configuration list for PBXProject "Thinkless" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A011FCDD22760E7100F03E51 /* iClac */,
-				A011FCF122760E7300F03E51 /* iClacTests */,
-				A011FCFC22760E7300F03E51 /* iClacUITests */,
+				A011FCDD22760E7100F03E51 /* Thinkless */,
+				A011FCF122760E7300F03E51 /* ThinklessTests */,
+				A011FCFC22760E7300F03E51 /* ThinklessUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		A011FCF422760E7300F03E51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A011FCDD22760E7100F03E51 /* iClac */;
+			target = A011FCDD22760E7100F03E51 /* Thinkless */;
 			targetProxy = A011FCF322760E7300F03E51 /* PBXContainerItemProxy */;
 		};
 		A011FCFF22760E7300F03E51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A011FCDD22760E7100F03E51 /* iClac */;
+			target = A011FCDD22760E7100F03E51 /* Thinkless */;
 			targetProxy = A011FCFE22760E7300F03E51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,12 +441,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iClac/Info.plist;
+				DEVELOPMENT_TEAM = JERP9EHFP2;
+				INFOPLIST_FILE = "$(SRCROOT)/Thinkless/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = OwenSutton.iClac;
+				PRODUCT_BUNDLE_IDENTIFIER = OwenSutton.ThoughtBubble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,12 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iClac/Info.plist;
+				DEVELOPMENT_TEAM = JERP9EHFP2;
+				INFOPLIST_FILE = "$(SRCROOT)/Thinkless/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = OwenSutton.iClac;
+				PRODUCT_BUNDLE_IDENTIFIER = OwenSutton.ThoughtBubble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iClac.app/iClac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thinkless.app/Thinkless";
 			};
 			name = Debug;
 		};
@@ -506,7 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iClac.app/iClac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thinkless.app/Thinkless";
 			};
 			name = Release;
 		};
@@ -551,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A011FCD922760E7100F03E51 /* Build configuration list for PBXProject "iClac" */ = {
+		A011FCD922760E7100F03E51 /* Build configuration list for PBXProject "Thinkless" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A011FD0422760E7300F03E51 /* Debug */,
@@ -560,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A011FD0622760E7300F03E51 /* Build configuration list for PBXNativeTarget "iClac" */ = {
+		A011FD0622760E7300F03E51 /* Build configuration list for PBXNativeTarget "Thinkless" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A011FD0722760E7300F03E51 /* Debug */,
@@ -569,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A011FD0922760E7300F03E51 /* Build configuration list for PBXNativeTarget "iClacTests" */ = {
+		A011FD0922760E7300F03E51 /* Build configuration list for PBXNativeTarget "ThinklessTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A011FD0A22760E7300F03E51 /* Debug */,
@@ -578,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A011FD0C22760E7300F03E51 /* Build configuration list for PBXNativeTarget "iClacUITests" */ = {
+		A011FD0C22760E7300F03E51 /* Build configuration list for PBXNativeTarget "ThinklessUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A011FD0D22760E7300F03E51 /* Debug */,
